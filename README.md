@@ -9,7 +9,7 @@ In the modern digital marketplace, users are often overwhelmed by the vast numbe
 The recommendation process in CHOOSE AI is composed of multiple stages, each utilizing specific tools and methodologies:
 
 **Environment Setup and Library Installation:**
-The system is developed using Python and relies on essential libraries such as Streamlit for the web interface, Pandas for data manipulation, and Scikit-learn for implementing machine learning algorithms. These libraries collectively enable data processing, model execution, and interactive visualization.
+The system is developed using Python and relies on essential libraries such as `Streamlit` for the web interface, `Pandas` for data manipulation, and `Scikit-learn` for implementing machine learning algorithms. These libraries collectively enable data processing, model execution, and interactive visualization.
 
 **Data Collection and Preparation:**
 A structured dataset containing electronic product details such as product name, brand, category, price, rating, and features is used. Textual attributes are combined and preprocessed to form a unified representation suitable for machine learning analysis.
@@ -17,17 +17,17 @@ A structured dataset containing electronic product details such as product name,
 **Machine Learning-Based Feature Extraction:**
 The project employs TF-IDF (Term Frequency–Inverse Document Frequency) vectorization to convert textual product information into numerical vectors. This technique captures the importance of keywords within product descriptions, enabling meaningful similarity comparisons.
 
-'''Python
+```python
 tfidf = TfidfVectorizer(stop_words="english")
 tfidf_matrix = tfidf.fit_transform(product_text)
-'''
+```
 
 **Similarity Computation and Recommendation:**
 Cosine similarity is used to measure the closeness between user queries and product vectors. Products with the highest similarity scores are identified as the most relevant recommendations, along with a list of similar alternatives.
 
-'''Python
+```python
 similarity = cosine_similarity(query_vector, tfidf_matrix)
-'''
+```
 
 **Conversational User Interaction:**
 The system follows a chat-style interaction flow, where the AI assistant gathers user preferences such as brand, budget, and usage category. Based on these inputs, the system refines recommendations to closely match user requirements.
