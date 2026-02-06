@@ -42,3 +42,13 @@ CHOOSE AI can be extended to include advanced recommendation techniques such as 
 #### Conclusion
 
 CHOOSE AI demonstrates the practical application of machine learning and natural language processing in building an intelligent recommendation system. By combining content-based filtering with an interactive user interface, the project offers an effective and scalable solution for personalized electronics recommendation in real-world scenarios.
+
+## OUTPUT
+
+#### Homepage
+
+![Image](https://github.com/user-attachments/assets/6ac21a07-22f2-4592-a522-57dd972dafb4)
+
+#### Recommended Product
+
+![Image](https://github.com/user-attachments/assets/46c533e6-00b7-42da-8398-92ac58c3ed02)
