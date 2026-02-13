@@ -1,4 +1,4 @@
-# 🤖 AI-BASED ELECTRONICS RECOMMENDATION SYSTEM (CHOOSE AI)
+# 🤖 PRODUCT INTELLIGENCE SYSTEM (CHOOSE AI)
 
 ### Description of an AI-Driven Electronics Recommendation System Using Machine Learning and Web Technologies in Python
 
